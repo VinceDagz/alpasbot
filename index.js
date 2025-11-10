@@ -1,3 +1,12 @@
+const express = require('express');
+const app = express();
+const path = require('path');
+
+app.use(express.static(__dirname)); // serves index.html in same folder
+
+app.listen(3000, () => {
+  console.log('Web page running at http://localhost:3000');
+});
 const mineflayer = require('mineflayer')
 function createBot () {
 const bot = mineflayer.createBot({
