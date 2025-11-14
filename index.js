@@ -11,7 +11,7 @@ const mineflayer = require('mineflayer')
 function createBot () {
 const bot = mineflayer.createBot({
   host: 'play.arisxzesmp.me', //ACA VA LA IP DE TU SERVIDOR  // SERVER IP
-  username: 'WaguriiBot', // ACA VA EL NOMBRE DEL BOT  // BOT NAME
+  username: 'Kuruukuruuu', // ACA VA EL NOMBRE DEL BOT  // BOT NAME
   port: 40015, // PUERTO DEL SERVIDOR // SERVER PORT
   version: '1.16.5',
 })
